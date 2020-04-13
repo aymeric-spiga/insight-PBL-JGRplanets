@@ -1,0 +1,3 @@
+[submodule "insight-atmosphere-nature-geoscience"]
+	path = insight-atmosphere-nature-geoscience
+	url = git@github.com:aymeric-spiga/insight-atmosphere-nature-geoscience.git
