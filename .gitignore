@@ -4,6 +4,8 @@
 WORKFLOW_drops/output*
 *.pdf
 *.txt
+*.png
+*.jpg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
