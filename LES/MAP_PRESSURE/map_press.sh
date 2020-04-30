@@ -1,0 +1,1 @@
+/home/aspiga/soft/planetoplot/bin/pp.py 25M_LS300_W10_extract.nc -t 0 -z 0 -v PSFC -N 759.5 -M 762.5 -D 30 -C magma --verbose -o map_press -O pdf --xcoeff 0.025 --ycoeff 0.025 --xp 16 --yp 12 -T  --xlabel x-axis (km) --ylabel y-axis (km) 
