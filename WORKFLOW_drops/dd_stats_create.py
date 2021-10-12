@@ -21,14 +21,17 @@ soltab = range(1,20)
 ### RECOMPUTE ALL ###
 #####################
 recalculate = True # recalculate everything included in soltab (could be very long)
-lastday = 487
+lastday = 807
 soltab = range(1,lastday+1) 
 recalculate = False  # recalculate only when txt is missing
+
 ###########################################################
+window = 1000. ; droplim = -0.35 ; winsearch = 30 ; denoise = True
 ###########################################################
 
 #### MAIN MAIN MAIN MAIN ####
-apss_lib.analyze_pressure(soltab=soltab,recalculate=recalculate,datatype=datatype,window=window)
+apss_lib.analyze_pressure(soltab=soltab,recalculate=recalculate,datatype=datatype,\
+                          window=window,droplim=droplim,winsearch=winsearch,denoise=denoise)
 #### MAIN MAIN MAIN MAIN ####
 try:
     dafile = open("./sol_.txt","a")
